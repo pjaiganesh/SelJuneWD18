@@ -19,6 +19,11 @@ public class LearnFindElements {
 		int size = allQUOTE.size();
 		System.out.println(size);
 		//allQUOTE.get(1).click();
+		//click last QUOTES
+		//allQUOTE.get(size-1).click();
+		for (WebElement eachQUOTE : allQUOTES) {
+			System.out.println(eachQUOTE.getText());
+		}
 		
 		
 		
